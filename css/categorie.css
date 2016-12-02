@@ -1,0 +1,52 @@
+
+
+header {
+  background-image: url('../img/culture1.jpg'); 
+}
+
+#cat_culture {
+color: # ;
+text-transform: none;
+}
+
+#image2:hover {
+box-shadow: 6px 5px 5px #E0E0E0;
+opacity:0.9;
+}
+
+#image1:hover  {
+box-shadow: 6px 5px 5px #E0E0E0;
+opacity:0.9;
+/*transition: border-color 0.3s, border-width 0.3s; */
+}
+
+
+#image1 {
+display: inline block;
+width:88.5%;
+
+}
+
+#image2 {
+width: 87%;
+display: inline block;
+
+}
+
+#contenu {
+
+box-shadow: 1px 1px 4px #E0E0E0;
+border: 1px solid #DDDDDD;
+border-radius:3px;
+padding-top: 10px;
+margin-top: 5px;
+/*margin-left: 3px;*/
+margin-right: 1px;
+}
+
+/*.container {
+margin-left: -0.1%;
+padding-left:0.5px;
+padding-right:0.5px;
+
+}*/
