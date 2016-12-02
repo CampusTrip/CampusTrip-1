@@ -15,6 +15,7 @@ ul.choix >li {
   background-image: url(../img/sprites.png);
   background-repeat: no-repeat;
   position: relative;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 ul.choix li ul {
@@ -25,6 +26,29 @@ ul.choix li ul {
   top: 30px;
   left: 20px;
   z-index: 1000;
+}
+
+ 
+ul.choixNy >li {
+  display: inline-block;
+  width: 260px;
+  height: 250px;
+  background-image: url(../img/ny.png);
+  background-repeat: no-repeat;
+  position: relative;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+ul.choixNy li ul {
+  display: none; 
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  z-index: 1000;
+  border-radius: 100px;
+  margin : auto;
 }
 
 /************  Second niveau *********/
@@ -48,9 +72,42 @@ ul.choix li ul li {
   line-height: 35px;
   padding: 5px;
   position: relative;
+  
+
 }
 
 ul.choix li:hover ul {
+  display: block;
+}
+
+.svg {
+}
+
+ul.choixNy li ul li ul {
+   display: none; 
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: auto;
+  left: auto;
+  z-index: 1000;
+  
+}
+
+
+ul.choixNy li ul li {
+  border: 1px solid fed136;
+  background-color:  #fed136;
+  display: block;
+  width: 200px;
+  height: auto;
+  line-height: auto;
+  padding: auto;
+  position: relative;
+  color : white;
+}
+
+ul.choixNy li:hover ul {
   display: block;
 }
 
@@ -63,10 +120,25 @@ ul.choix li ul li:hover ul {
   display: block;
 }
 
+ul.choixNy li:hover ul li ul {
+  display: none;
+}
+
+ul.choixNy li ul li:hover ul {
+  display: block;
+}
+
 /*  rÃ¨gles pour tous les liens du menu */
 ul.choix a {
   display: block;
   color: white;
+  font-size: 1.1em;
+  text-decoration: none;
+}
+
+ul.choixNy a {
+  display: block;
+  color: black;
   font-size: 1.1em;
   text-decoration: none;
 }
@@ -86,6 +158,15 @@ ul.choix li.pied:hover {
 }
 
 
+ul.choixNy li.pied {
+  background-position: -25px -23px;
+}
+
+ul.choixNy li.pied:hover {
+  background-position: -21px -308px;
+}
+
+
 /* VÃ©lo */
 ul.choix li.velo {
   background-position: -1px -1px;
@@ -93,6 +174,14 @@ ul.choix li.velo {
 
 ul.choix li.velo:hover {
   background-position: -1px -52px;
+}
+
+ul.choixNy li.velo {
+  background-position: -285px -29px;
+}
+
+ul.choixNy li.velo:hover {
+  background-position:-281px -314px;
 }
 
 /*  Auto  */
@@ -104,6 +193,15 @@ ul.choix li.auto:hover {
   background-position: -154px -52px;
 }
 
+ul.choixNy li.auto {
+  background-position: -555px -41px;
+}
+
+ul.choixNy li.auto:hover {
+  background-position: -551px -326px;
+}
+
+
 /*  avion */
 
 ul.choix li.avion {
@@ -112,5 +210,14 @@ ul.choix li.avion {
 
 ul.choix li.avion:hover {
   background-position: -52px -52px;
+}
+
+
+ul.choixNy li.avion {
+  background-position:  -824px -42px;
+}
+
+ul.choixNy li.avion:hover {
+  background-position: -820px -327px;
 }
 
