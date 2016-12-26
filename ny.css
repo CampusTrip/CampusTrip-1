@@ -1,0 +1,39 @@
+
+
+@media (min-width:768px){
+#services{
+border: 1px solid #FFE4E1;
+margin-top: 2%;
+padding-top: 80px;
+padding-bottom: 15px;
+}
+}
+
+#monument {
+border: 1px solid #FFE4E1;
+padding-top: 14%;
+}
+
+
+#carte {
+border: 1px solid #FFE4E1;
+padding-top: 5%;
+}
+
+#hotel {
+border: 1px solid #FFE4E1;
+padding-top: 3%;
+padding-bottom: 2%;
+
+}
+
+#slider {
+width: 40%;
+height: 100%;
+float: left;
+margin-top: 8%;
+}
+
+.form-control {
+color: #000000;
+}
